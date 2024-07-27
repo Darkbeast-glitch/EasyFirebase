@@ -1,26 +1,24 @@
-# Easy Firebase
+# Firebase Simplify
 
-`easyfirebase` is a Dart package that simplifies adding Firebase to your Flutter projects. It automates the setup process, allowing you to quickly integrate Firebase services with minimal manual configuration.
+`firebase_simplify` is a Dart package that simplifies adding Firebase to your Flutter projects. It automates the setup process, allowing you to quickly integrate Firebase services with minimal manual configuration.
 
 ## Features
 
 - **Automatic Firebase CLI Setup**: Checks if Firebase CLI is installed and guides you through the installation if necessary.
 - **Firebase Login**: Instructs users to log in to Firebase before proceeding.
-- **Firebase Configuration**: Prrompts users to configue their Firebase projects.
+- **Firebase Configuration**: Prompts users to configure their Firebase projects.
 - **Dependency Management**: Adds necessary Firebase dependencies to your Flutter project.
 - **Initialization Guidance**: Provides instructions for adding Firebase initialization code to your `main.dart`.
 
 ## Installation
 
-To use `easyfirebase`, first make sure you have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your system.
+To use `firebase_simplify`, first make sure you have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your system.
 
-Add `easyfirebase` to your `pubspec.yaml` file:
+Add `firebase_simplify` to your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  easyfirebase: ^1.0.0
-
-
+  firebase_simplify: ^1.0.0
 
 Usage
 -----
@@ -31,16 +29,20 @@ Usage
 
     bash
 
+    Copy code
+
     `npm install -g firebase-tools
     firebase login`
 
-2.  **Run Easy Firebase**
+2.  **Run Firebase Simplify**
 
     Navigate to your Flutter project directory and run the following command to start the setup process:
 
     bash
 
-    `dart run easyfirebase`
+    Copy code
+
+    `dart run firebase_simplify`
 
     This script will guide you through the necessary steps, including:
 
@@ -69,8 +71,9 @@ This package is licensed under the MIT License. See the LICENSE file for more de
 Contact
 -------
 
-For any questions or support, please contact [bbjulius900@gmail.com](bbjulius900@gmail.com)
+For any questions or support, please contact bbjulius900@gmail.com.
 
 * * * * *
 
-Thank you for using `easyfirebase`! We hope this package makes your Firebase integration easier and more efficient.
+Thank you for using `firebase_simplify`! We hope this package makes your Firebase integration easier and more efficient.
+
