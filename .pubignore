@@ -1,0 +1,44 @@
+# Ignore pubspec.lock file
+pubspec.lock
+
+# Ignore build directory
+/build/
+
+# Ignore .dart_tool directory
+.dart_tool/
+
+# Ignore .idea directory
+.idea/
+
+# Ignore .vscode directory
+.vscode/
+
+# Ignore .pub directory
+.pub/
+
+# Ignore .packages file
+.packages
+
+# Ignore .flutter-plugins file
+.flutter-plugins
+
+# Ignore .flutter-plugins-dependencies file
+.flutter-plugins-dependencies
+
+# Ignore .metadata file
+.metadata
+
+# Ignore any other generated files or directories
+**/generated/
+**/generated_*/
+
+# Ignore any other temporary files
+*.tmp
+*.bak
+*.swp
+*.~lock.*
+
+# Exclude these files from being published
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
