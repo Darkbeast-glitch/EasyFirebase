@@ -1,4 +1,4 @@
-# Easy Firebase
+#Firebase Simplify
 
 `firebase_simplify` is a Dart package that simplifies adding Firebase to your Flutter projects. It automates the setup process, allowing you to quickly integrate Firebase services with minimal manual configuration.
 
