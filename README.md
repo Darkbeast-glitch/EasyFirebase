@@ -18,7 +18,7 @@
 
 ## Installation
 
-1. **Install Flutter and Dart:** Ensure you have Flutter and Dart installed on your system.
+1. **Install Flutter and Dart:** Ensure you have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your system.
 2. **Add Firebase Simplify to your `pubspec.yaml`:**
 
    ```yaml
