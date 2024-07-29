@@ -1,48 +1,49 @@
-# Firebase Simplify
+# Firebase_Simplify
 
-`firebase_simplify` is a Dart package that simplifies adding Firebase to your Flutter projects. It automates the setup process, allowing you to quickly integrate Firebase services with minimal manual configuration.
+`easyfirebase` is a Dart package that simplifies adding Firebase to your Flutter projects. It automates the setup process, allowing you to quickly integrate Firebase services with minimal manual configuration.
 
 ## Features
 
 - **Automatic Firebase CLI Setup**: Checks if Firebase CLI is installed and guides you through the installation if necessary.
 - **Firebase Login**: Instructs users to log in to Firebase before proceeding.
-- **Firebase Configuration**: Prompts users to configure their Firebase projects.
+- **Firebase Configuration**: Prrompts users to configue their Firebase projects.
 - **Dependency Management**: Adds necessary Firebase dependencies to your Flutter project.
 - **Initialization Guidance**: Provides instructions for adding Firebase initialization code to your `main.dart`.
 
 ## Installation
 
-To use `firebase_simplify`, first make sure you have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your system.
+To use `easyfirebase`, first make sure you have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your system.
 
-Add `firebase_simplify` to your `pubspec.yaml` file:
+Add `easyfirebase` to your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  firebase_simplify: ^1.0.0
+  easyfirebase: ^1.0.0
+```
 
-Usage
+
+
+# Usage
 -----
 
 1.  **Ensure Firebase CLI is Installed**
 
     Before running the script, make sure you have the Firebase CLI installed and you're logged in. If not, install the Firebase CLI and log in by running:
 
-    bash
+    ```yaml
 
-    Copy code
+    npm install -g firebase-tools
+    firebase login
+    ```
 
-    `npm install -g firebase-tools
-    firebase login`
-
-2.  **Run Firebase Simplify**
+2.  **Run Easy Firebase**
 
     Navigate to your Flutter project directory and run the following command to start the setup process:
 
-    bash
+    ```yaml
 
-    Copy code
-
-    `dart run firebase_simplify`
+    dart run easyfirebase
+    ```
 
     This script will guide you through the necessary steps, including:
 
@@ -50,6 +51,7 @@ Usage
     -   Prompting you to log in to Firebase if necessary.
     -   Adding Firebase dependencies to your Flutter project.
     -   Providing instructions for Firebase initialization in your `main.dart` file.
+    
 3.  **Manual Configuration**
 
     After running the script, follow these manual steps:
@@ -71,8 +73,8 @@ This package is licensed under the MIT License. See the LICENSE file for more de
 Contact
 -------
 
-For any questions or support, please contact bbjulius900@gmail.com.
+For any questions or support, please contact [bbjulius900@gmail.com](bbjulius900@gmail.com)
 
 * * * * *
 
-Thank you for using `Firebase_simplify`! We hope this package makes your Firebase integration easier and more efficient.
+Thank you for using `easyfirebase`! We hope this package makes your Firebase integration easier and more efficient.
